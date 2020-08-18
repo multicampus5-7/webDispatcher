@@ -14,6 +14,10 @@
     <servlet-name>dispatcher</servlet-name>
     <servlet-class>com.sds.DispatcherServlet</servlet-class>
   </servlet>
+  <servlet>
+    <servlet-name>dispatcher</servlet-name>
+    <servlet-class>com.sds.AdminDispatcherServlet</servlet-class>
+  </servlet>
   <servlet-mapping>
     <servlet-name>dispatcher</servlet-name>
     <url-pattern>*.mc</url-pattern>
