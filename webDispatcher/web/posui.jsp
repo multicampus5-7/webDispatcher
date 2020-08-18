@@ -9,7 +9,6 @@
 <h2>CHARGE:<span id="status"></span></h2>
 <div id="charge">
 	<button id="pay">PAY</button>
-	<button id="admin">ADMIN</button>
 	<button id="reset">RESET</button>
 </div>
 <h2>RECEIPT:</h2>
