@@ -3,7 +3,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
     
 <div id="center">
-<h1>POS SYSTEM</h1>
+<h3>주문할 메뉴 선택</h3>
 
 <table>
 	<c:forEach var="p" items="${poslist }">
@@ -11,7 +11,7 @@
 			<td>${p.name}</td>  
 			<td>${p.stock}</td>  
 			<td>${p.price }</td>
-			<td><img src=img/${p.img}></td>
+			<td><a href=""><img src=img/${p.img}></a></td>
 		</tr>
 	</c:forEach>
 </table>
