@@ -7,6 +7,11 @@ public class Sales {
 
 	public Sales() {
 	}
+	
+	public Sales(String name, int amount) {
+		this.name = name;
+		this.amount = amount;
+	}
 
 	public Sales(String name, int amount, int price) {
 		this.name = name;
