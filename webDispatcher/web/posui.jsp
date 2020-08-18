@@ -14,5 +14,5 @@
 </div>
 <h2>RECEIPT:</h2>
 <div id="receipt" style="width: 100%; height: auto; border: 2px solid gray;"></div>
-<div id="map" style="width: 100%; height: 600px; border: 2px solid blue;"></div>
+<!-- <div id="map" style="width: 100%; height: 600px; border: 2px solid blue;"></div> -->
 </div>
