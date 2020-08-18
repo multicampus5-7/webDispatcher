@@ -65,6 +65,10 @@ footer{
 	height: auto; 
 	border: 2px solid orange;
 }
+
+img{
+	width: 100px;
+}
  
 </style>
 </head>
@@ -92,7 +96,7 @@ footer{
 <section>
 	<c:choose>
 		<c:when test="${centerpage == null }">
-		   <jsp:include page="posui.jsp"></jsp:include>
+		   <jsp:include page="center.jsp"></jsp:include>
 		</c:when>
 		<c:otherwise>
 		   <jsp:include page="${centerpage}.jsp"></jsp:include>
