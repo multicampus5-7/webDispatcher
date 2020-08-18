@@ -8,8 +8,8 @@
 <table>
 	<c:forEach var="p" items="${poslist }">
 		<tr>
-			<td>${p.name }</td>  
-			<td>${p.stock }</td>  
+			<td>${p.name}</td>  
+			<td>${p.stock}</td>  
 			<td>${p.price }</td>
 			<td><img src=img/${p.img}></td>
 		</tr>
