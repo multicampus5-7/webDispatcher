@@ -31,7 +31,7 @@ public class AdminUpdateMenuImpServlet extends HttpServlet {
 			pos = new Pos(name, Integer.parseInt(stock), Integer.parseInt(price), img);
 			System.out.println(pos);
 			db.update(pos);
-			response.sendRedirect("selectAll.mc");
+			response.sendRedirect("selectAll.cm");
 		} catch (Exception e) {
 			System.out.println("Select Fail");
 			e.printStackTrace();

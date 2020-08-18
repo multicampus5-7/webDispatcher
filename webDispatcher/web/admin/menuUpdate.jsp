@@ -5,7 +5,7 @@
 	request.setCharacterEncoding("utf-8");
 %>
 <div id="center">
-	<form action="updateMenuImp.mc" method="post">
+	<form action="updateMenuImp.cm" method="post">
 		<h2>이름 : ${pos.name}</h2>
 		<h2>
 			재고: <input type="text" name="stock" value="${pos.stock}">

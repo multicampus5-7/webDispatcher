@@ -79,7 +79,7 @@ img{
 		<c:when test="${loginuser == null}"> <!-- not yet login -->
 			<ul>
 				<li><a href="main.mc">MAIN</a></li>
-				<li><a href="login.mc">ADMIN</a></li>
+				<li><a href="admin.mc">ADMIN</a></li>
 			</ul>
 		</c:when>
 		<c:otherwise>

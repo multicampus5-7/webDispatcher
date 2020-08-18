@@ -68,10 +68,10 @@ footer {
 	<header>
 		<h1>Main Page</h1>
 		<ul>
-			<li><a href="main.mc">MAIN</a></li>
-			<li><a href="selectAll.mc">MENU CONTROL</a></li>
-			<li><a href="search.mc">SEARCH</a></li>
-			<li><a href="weather.mc">WEATHER</a></li>
+			<li><a href="main.cm">MAIN</a></li>
+			<li><a href="selectAll.cm">MENU CONTROL</a></li>
+			<li><a href="search.cm">SEARCH</a></li>
+			<li><a href="weather.cm">WEATHER</a></li>
 		</ul>
 
 	</header>

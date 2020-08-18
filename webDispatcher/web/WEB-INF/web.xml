@@ -24,6 +24,6 @@
   </servlet-mapping>
    <servlet-mapping>
     <servlet-name>dispatcher2</servlet-name>
-    <url-pattern>*.mc</url-pattern>
+    <url-pattern>*.cm</url-pattern>
   </servlet-mapping>
 </web-app>
