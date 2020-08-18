@@ -17,8 +17,7 @@ public class DispatcherServlet extends HttpServlet {
         super();
     }
 
-	protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		
+	protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {		
 		request.setCharacterEncoding("EUC-KR");
 		
 		String uri = request.getRequestURI();
