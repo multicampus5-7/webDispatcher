@@ -72,6 +72,7 @@ footer {
 			<li><a href="selectAll.cm">MENU CONTROL</a></li>
 			<li><a href="search.cm">SEARCH</a></li>
 			<li><a href="weather.cm">WEATHER</a></li>
+			<li><a href="../">BACK TO POS</a>
 		</ul>
 
 	</header>

@@ -27,9 +27,9 @@ public class DispatcherServlet extends HttpServlet {
 		String next = "main.jsp";
 		if(path.equals("main")) {
 			next = "main.jsp";
-		}else if(path.equals("login")) {
+		}else if(path.equals("map")) {
 			next = "main.jsp";
-			request.setAttribute("centerpage", "login");
+			request.setAttribute("centerpage", "map");
 		}else {
 			next = path;
 		}
