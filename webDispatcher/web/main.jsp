@@ -14,7 +14,7 @@
 
 header {
 	width: 700px;
-	height: 150px;
+	height: 100px;
 	background: #D0D0D0;
 	margin: 0 auto;
 }
@@ -37,7 +37,6 @@ header>ul>li {
 
 section {
 	width: 700px;
-	height: 600px;
 	background: gray;
 	margin: 0 auto;
 }
@@ -52,9 +51,15 @@ section>#center {
 footer {
 	width: 700px;
 	height: 30px;
-	background: black;
+	background: #D0D0D0;
 	margin: 0 auto;
 }
+
+a { 
+	text-decoration: none;
+	font-weight: bolder;
+	font-size: 120%;
+} 
 
 #product {
 	width: 100%;
@@ -77,6 +82,38 @@ footer {
 
 img {
 	width: 100px;
+}
+
+#posL{
+	width: 70%;
+	height: 500px;
+	float: left;
+}
+#posL>table{
+	width: 100%;
+	height: 100%;
+}
+#posR{
+	width: 30%;
+	height: 500px;
+	float: right;
+}
+#posR>table{
+	width: 100%;
+	height: 100%;
+}
+
+#pospay{
+	width: 100%;
+}
+#paycomplete{
+	text-align:center;
+}
+#paycomplete>table{
+	float: center;
+	margin:0 auto;
+	padding: 10px;
+	background: #F0F0F0;
 }
 </style>
 </head>

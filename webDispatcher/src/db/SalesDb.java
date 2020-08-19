@@ -61,10 +61,10 @@ public class SalesDb extends Db<String, Sales> {
 		PreparedStatement pstmt = null;
 		try {
 			con = getConnection();
-			pstmt = con.prepareStatement("UPDATE SALES SET PRICE=?, AMOUNT=? WHERE NAME=?");
-			pstmt.setInt(1, v.getPrice());
-			pstmt.setInt(2, v.getAmount());
-			pstmt.setString(3, v.getName());
+			pstmt = con.prepareStatement("UPDATE SALES SET AMOUNT=? WHERE NAME=?");
+			//pstmt.setInt(1, v.getPrice());
+			pstmt.setInt(1, v.getAmount());
+			pstmt.setString(2, v.getName());
 
 			int result = pstmt.executeUpdate();
 			if (result == 0) {

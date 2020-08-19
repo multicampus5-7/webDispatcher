@@ -3,30 +3,39 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
 <div id="center">
-<h3>주문할 메뉴 선택</h3>
+<br><h2>주문할 메뉴 선택</h2><br>
+<div id="posL">
 <table>
-	<tr>
-		<td>메뉴</td>	<td>주문가능수량</td> <td>가격</td> <td></td>
+	<tr height=30px>
+		<th>메뉴</th>	<th>주문가능수량</th> <th>가격</th> <th></th>
 	</tr>
-		<c:forEach var="p" items="${poslist }">
-			<td>${p.name}</td>  
-			<td>${p.stock}</td>  
-			<td>${p.price }</td>
-			<td><a href=""><img src=img/${p.img}></a></td>
-		</tr>
+	<c:forEach var="p" items="${poslist }">
+	<tr height=80px>
+		<td>${p.name}</td>  
+		<td>${p.stock}</td>  
+		<td>${p.price}</td>
+		<td><a href=""><img src=img/${p.img}></a></td>
+	</tr>
 	</c:forEach>
 </table>
+</div>
+
+<div id="posR">
 <table>
-
-<c:forEach var="s" items="${saleslist }">
-	<tr>
-		<td>${s.amount} 
-		<a href="basketupdate?name=${s.name }&func=plus">더하기</a>
-		<a href="basketupdate?name=${s.name }&func=minus">빼기</a></td>
+	<tr height=30px><th>주문수량</th></tr>
+	<c:forEach var="s" items="${saleslist }">
+	<tr height=80px>
+		<td><a href="basketupdate?name=${s.name }&func=minus">- </a>
+		${s.amount} 
+		<a href="basketupdate?name=${s.name }&func=plus"> +</a>
+		</td>
 	</tr>
-</c:forEach>
+	</c:forEach>
 </table>
+</div>
 
-<h1><a href="pay.mc">PAY</a></h1>
+<div id="pospay">
+<a href="pay.mc"><h1>PAY</h1></a>
+</div>
 
 </div>
